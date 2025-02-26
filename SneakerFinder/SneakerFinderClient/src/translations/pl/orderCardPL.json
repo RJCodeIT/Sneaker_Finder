@@ -1,0 +1,13 @@
+{
+  "orderNumber": "Zamówienie #",
+  "size": "Rozmiar",
+  "quantity": "x",
+  "totalAmount": "Łączna kwota",
+  "status": {
+    "paid": "Opłacone",
+    "processing": "W trakcie realizacji",
+    "shipped": "Wysłane",
+    "delivered": "Dostarczone",
+    "cancelled": "Anulowane"
+  }
+}

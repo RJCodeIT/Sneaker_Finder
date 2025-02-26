@@ -1,0 +1,43 @@
+{
+  "title": "Polityka Prywatności",
+  "sections": {
+    "introduction": {
+      "title": "Wprowadzenie",
+      "content": "W Sneaker Finder cenimy Twoją prywatność i jesteśmy zobowiązani do ochrony Twoich danych osobowych. Ta Polityka Prywatności wyjaśnia, w jaki sposób zbieramy, wykorzystujemy i chronimy Twoje dane podczas korzystania z naszej strony internetowej."
+    },
+    "dataCollection": {
+      "title": "Zbierane Informacje",
+      "content": "Zbieramy następujące informacje podczas korzystania z naszej aplikacji:",
+      "items": {
+        "0": "Dane rejestracyjne: imię, nazwisko, adres email, hasło",
+        "1": "Dane techniczne: adres IP, typ urządzenia, system operacyjny",
+        "2": "Dane użytkowania: historia wyszukiwania, preferencje użytkownika"
+      }
+    },
+    "dataUse": {
+      "title": "Jak Wykorzystujemy Twoje Informacje",
+      "content": "Twoje dane osobowe są przetwarzane w następujących celach:",
+      "items": {
+        "0": "Umożliwienie korzystania z aplikacji Sneaker Finder",
+        "1": "Dostosowanie treści i funkcji do Twoich preferencji",
+        "2": "Obsługa zapytań użytkowników i wsparcie techniczne",
+        "3": "Prowadzenie analiz statystycznych i poprawa wydajności aplikacji"
+      }
+    },
+    "dataSecurity": {
+      "title": "Bezpieczeństwo Danych",
+      "content": "Wdrażamy odpowiednie środki bezpieczeństwa, aby chronić Twoje dane osobowe przed nieautoryzowanym dostępem, zmianą lub ujawnieniem."
+    },
+    "cookies": {
+      "title": "Pliki Cookie",
+      "content": "Używamy plików cookie, aby ulepszyć Twoje doświadczenia podczas przeglądania i analizować ruch na stronie. Możesz kontrolować ustawienia plików cookie poprzez preferencje przeglądarki."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "content": "Jeśli masz pytania dotyczące naszej Polityki Prywatności, skontaktuj się z nami pod adresem privacy@sneakerfinder.com"
+    }
+  },
+  "button": {
+    "backToRegistration": "Powrót do Rejestracji"
+  }
+}

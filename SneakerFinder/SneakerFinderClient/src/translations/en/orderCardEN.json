@@ -1,0 +1,13 @@
+{
+  "orderNumber": "Order #",
+  "size": "Size",
+  "quantity": "x",
+  "totalAmount": "Total Amount",
+  "status": {
+    "paid": "Paid",
+    "processing": "Processing",
+    "shipped": "Shipped",
+    "delivered": "Delivered",
+    "cancelled": "Cancelled"
+  }
+}
