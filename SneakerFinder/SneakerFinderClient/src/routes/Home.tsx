@@ -1,7 +1,7 @@
 import Bestsellers from "../containers/Bestsellers";
 import Hero from "../containers/Hero";
 import LatestProducts from "../containers/LatestProducts";
-// import PopularBrands from "../containers/PopularBrands";
+import PopularBrands from "../containers/PopularBrands";
 import Promotions from "../containers/Promotions";
 import Footer from "../layouts/Footer";
 import Navbar from "../layouts/Navbar";
@@ -19,7 +19,7 @@ export default function Home() {
         <div id="promotions">
           <Promotions />
         </div>
-        {/* <PopularBrands /> */}
+        <PopularBrands />
       </div>
       <Footer />
     </main>

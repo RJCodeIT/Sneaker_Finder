@@ -19,49 +19,24 @@ export default function BrandsCard({ name, variant = 'default', photo }: BrandsC
   };
 
   const cardClasses = variant === 'large' 
-    ? "flex flex-col items-center p-4 bg-white rounded-xl shadow-lg w-72 hover:shadow-xl transition-shadow duration-300"
-    : "flex flex-col items-center p-2 bg-gray-100 rounded-lg shadow-sm w-[350px]";
+    ? "relative flex flex-col items-center justify-end w-72 h-40 rounded-sm shadow-lg hover:shadow-xl transition-shadow duration-300"
+    : "relative flex flex-col items-center justify-end w-[350px] h-24 rounded-sm shadow-sm";
 
-  const imageClasses = variant === 'large'
-    ? "w-full h-40 bg-red-500 flex items-center justify-center rounded-lg mb-4"
-    : "w-full h-24 bg-red-500 flex items-center justify-center";
-
-  const textClasses = variant === 'large'
-    ? "text-lg font-bold"
-    : "text-sm font-semibold";
-
-  const buttonClasses = variant === 'large'
-    ? "!w-full !py-2 !px-6 !text-base mt-2"
-    : "!w-auto !py-1 !px-3 !text-sm";
+  const cardStyle = photo ? {
+    backgroundImage: `url(${photo})`,
+    backgroundPosition: 'center',
+    backgroundSize: '100% 100%',
+    backgroundRepeat: 'no-repeat'
+  } : {};
 
   return (
-    <div className={cardClasses}>
-      <div className={imageClasses}>
-        {photo ? (
-          <img src={photo} alt={name} className="w-full h-full object-contain" />
-        ) : (
-          <span className="text-white text-sm">Image placeholder</span>
-        )}
-      </div>
-      <div className={variant === 'large' ? "w-full text-center" : "w-full flex justify-between items-center mt-2"}>
-        <span className={textClasses}>{name}</span>
-        {variant !== 'large' && (
-          <Button 
-            name={t('viewProducts')}
-            type="button"
-            className={buttonClasses}
-            onClick={handleClick}
-          />
-        )}
-      </div>
-      {variant === 'large' && (
-        <Button 
-          name={t('viewProducts')}
-          type="button"
-          className={buttonClasses}
-          onClick={handleClick}
-        />
-      )}
+    <div className={cardClasses} style={cardStyle}>
+      <Button 
+        name={t('viewProducts')}
+        type="button"
+        className={variant === 'large' ? "!w-2/3 !py-1 !px-4 !text-sm mb-2 !rounded-sm" : "!w-auto !py-1 !px-3 !text-sm mb-1 !rounded-sm"}
+        onClick={handleClick}
+      />
     </div>
   );
 }

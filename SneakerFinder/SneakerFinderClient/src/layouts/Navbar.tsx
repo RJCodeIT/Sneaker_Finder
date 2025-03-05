@@ -84,9 +84,9 @@ export default function Navbar() {
       >
         {t('menu.promotions')}
       </button>
-      {/* <Link to="/sneakerFinder/brands" className="text-gray-600 hover:text-gray-800 w-full text-center px-4 py-2 text-lg font-semibold">
+      <Link to="/sneakerFinder/brands" className="text-gray-600 hover:text-gray-800 w-full text-center px-4 py-2 text-lg font-semibold">
         {t('menu.allBrands')}
-      </Link> */}
+      </Link>
       <Link to="/sneakerFinder/products" className="text-gray-600 hover:text-gray-800 w-full text-center px-4 py-2 text-lg font-semibold">
         {t('menu.allProducts')}
       </Link>

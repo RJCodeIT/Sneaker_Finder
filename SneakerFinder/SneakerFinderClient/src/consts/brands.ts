@@ -1,3 +1,5 @@
+import { brandImages } from '../utils/brandImages';
+
 interface Brand {
     name: string;
     image?: string;
@@ -6,34 +8,34 @@ interface Brand {
 export const brands: Brand[] = [
     {
         name: 'Adidas',
-        image: 'https://via.placeholder.com/150/ff0000/ffffff'
+        image: brandImages['Adidas']
     },
     {
         name: 'Air Jordan',
-        image: 'https://via.placeholder.com/150/ff0000/ffffff'
+        image: brandImages['Air Jordan']
     },
     {
         name: 'Nike',
-        image: 'https://via.placeholder.com/150/ff0000/ffffff'
+        image: brandImages['Nike']
     },
     {
         name: 'Yeezy',
-        image: 'https://via.placeholder.com/150/ff0000/ffffff'
+        image: brandImages['Yeezy']
     },
     {
         name: 'BAPE',
-        image: 'https://via.placeholder.com/150/ff0000/ffffff'
+        image: brandImages['BAPE']
     },
     {
         name: 'Travis Scott',
-        image: 'https://via.placeholder.com/150/ff0000/ffffff'
+        image: brandImages['Travis Scott']
     },
     {
         name: 'Corteiz',
-        image: 'https://via.placeholder.com/150/ff0000/ffffff'
+        image: brandImages['Corteiz']
     },
     {
         name: 'Carhartt WIP',
-        image: 'https://via.placeholder.com/150/ff0000/ffffff'
+        image: brandImages['Carhartt WIP']
     }
 ];
